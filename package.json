@@ -11,7 +11,8 @@
   "express": "^4.17.1",
   "morgan": "^1.9.1",
   "body-parser": "^1.18.3",
-   "dotenv"
+   "dotenv",
+   "moment": "^2.24.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
