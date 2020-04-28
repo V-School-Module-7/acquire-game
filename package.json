@@ -1,21 +1,29 @@
 {
-
-"name": "acquire-game",
-"version": "1.0.0",
-"scripts": {
-  "start": "node server",
-  "dev": "nodemon server"
+  "name": "acquire-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
- "dependencies": {
-  "socket.io": "^2.3.0",
-  "express": "^4.17.1",
-  "morgan": "^1.9.1",
-  "body-parser": "^1.18.3",
-   "dotenv",
-   "moment": "^2.24.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V-School-Module-7/acquire-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/V-School-Module-7/acquire-game/issues"
+  },
+  "homepage": "https://github.com/V-School-Module-7/acquire-game#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
-    
-    }
+    "nodemon": "^2.0.3"
+  }
 }
