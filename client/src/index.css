@@ -1,16 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'IBM Plex Sans',
+  sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
 
 .MuiToolbar-root {
   display: flex;
@@ -21,8 +19,116 @@ code {
   margin-bottom: 6em;
 }
 
+.outer{
+  width: 100%;
+}
+
+img{
+  width: 100vw;
+  
+  height: 60vh;
+}
+
 .links{
   /* width: 100%; */
   float: left;
   justify-content: space-around;
+}
+
+.wrapper{
+  width: 100%;
+  left: 0;
+}
+
+.container{
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.firebaseui-card-content,
+.firebaseui-card-footer{
+  left: 0
+}
+
+
+.gameTitle{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  margin-top: 1.5em;
+  color: #fff;
+}
+
+.subText{
+font-family: IBM Plex Sans;
+font-style: normal;
+font-size: 36px;
+line-height: 31px;
+letter-spacing: 0.75px;
+z-index: 1;
+color: #fff;
+padding-left: 15px;
+top: 0;
+margin-top: 8.5em;
+position: absolute;
+width: 90%;
+font-weight: bold;
+}
+
+.text-2{
+  /* position: relative; */
+  width: 100%;
+  /* margin-top: 2em; */
+}
+
+.subText2{
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 31px;
+  letter-spacing: 0.75px;
+  z-index: 1;
+  color: #fff;
+  padding-left: 15px;
+  top: 0;
+  margin-top: 22em;
+  position: absolute;
+  width: 90%;
+}
+.subTitle{
+  width: 60%;
+  position: relative;
+  color: #fff;
+  z-index: 1;
+  
+}
+
+.signup{
+  text-align: center;
+  height: 20%;
+}
+
+.signupBtn{
+  width: 90%;
+  margin-top: 1em;
+  border: 2px solid black;
+}
+
+.MuiButton-outlined{
+  margin-top: 1em;
+}
+
+
+.input{
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
