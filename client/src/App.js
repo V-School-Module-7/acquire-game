@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import Login from "./compnents/Login"
-import HomePage from "./compnents/Homepage"
+import Login from "./components/Login"
+import WaitingRoom from "./components/WaitingRoom"
+import StartAGame from "./components/StartAGame"
 import "./App"
 import {Link, Switch, Route} from "react-router-dom"
 import {AppBar} from "@material-ui/core"
@@ -15,11 +16,18 @@ export default class App extends Component{
         <div className="container"></div>
         <Switch>
           <Route exact path="/">
-            <Login />
+
           </Route>
-          />
-          <Route path="/homepage">
-            <HomePage />
+          <Route path="/login">
+          <Login />
+          {/* <WaitingRoom/> */}
+          </Route>
+          <Route path="/startagame">
+            <StartAGame />
+            </Route>
+          
+          <Route path="/waitingroom">
+          <WaitingRoom/>
           </Route>
         </Switch>
       </div>
